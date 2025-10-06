@@ -1,5 +1,6 @@
 import { AppBar, Box, Toolbar } from '@mui/material'
 import React from 'react'
+import { ThemeToggle } from '../ThemeToggle/ThemeToggle'
 
 const Header = () => {
   return (
@@ -8,6 +9,7 @@ const Header = () => {
         <Toolbar variant="dense">
           This is the header
         </Toolbar>
+        <ThemeToggle />
       </AppBar>
     </Box>
   )
