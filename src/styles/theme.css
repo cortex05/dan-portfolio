@@ -1,11 +1,25 @@
 :root {
-  --color-bg: #ffffff;
-  --color-text: #000000;
-  --color-primary: #007bff;
+  --color-bg: #fdfdfd;
+  --color-surface: #ffffff;
+  --color-text: #1a1a1a;
+  --color-muted: #6c757d;
+  --color-primary: #0066ff;       /* Vibrant blue */
+  --color-secondary: #00c2c2;     /* Cyan for accents */
+  --color-accent: #01ba01;        /* Neon green */
+  --color-border: #e0e0e0;
+  --color-code-bg: #f4f4f4;
+  --padding-medium: 20px;
+  --padding-small: 10px;
 }
 
 [data-theme='dark'] {
-  --color-bg: #121212;
-  --color-text: #ffffff;
-  --color-primary: #90caf9;
+  --color-bg: #0d1117;             /* GitHub dark */
+  --color-surface: #161b22;
+  --color-text: #c9d1d9;
+  --color-muted: #8b949e;
+  --color-primary: #58a6ff;        /* Bright tech blue */
+  --color-secondary: #00d0ff;      /* Cyan accent */
+  --color-accent: #39FF14;         /* Neon green again */
+  --color-border: #30363d;
+  --color-code-bg: #1f2933;
 }

@@ -1,0 +1,9 @@
+.contactContainer {
+  padding: var(--padding-small);
+}
+
+@media only screen and (min-width: 481px) {
+  .contactContainer {
+    padding: var(--padding-medium);
+  }
+}

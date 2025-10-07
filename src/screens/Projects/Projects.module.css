@@ -1,0 +1,9 @@
+.projectsContainer {
+  padding: var(--padding-small);
+}
+
+@media only screen and (min-width: 481px) {
+  .projectsContainer {
+    padding: var(--padding-medium);
+  }
+}

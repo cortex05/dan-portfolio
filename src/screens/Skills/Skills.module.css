@@ -1,0 +1,9 @@
+.skillsContainer {
+  padding: var(--padding-small);
+}
+
+@media only screen and (min-width: 481px) {
+  .skillsContainer {
+    padding: var(--padding-medium);
+  }
+}
