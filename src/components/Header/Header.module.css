@@ -4,4 +4,7 @@
   justify-content: start;
   align-items: center;
   /* padding: 20px; */
+
+    background-color: var(--color-bg);
+  color: var(--color-text);
 }
