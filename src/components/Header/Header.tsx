@@ -9,10 +9,10 @@ const Header = () => {
     <>
       <div className={styles.headerBody}>
         <div className={styles.navLinks}>
-          <button onClick={() => navigate("/")} className={styles.one}>About</button>
-          <button onClick={() => navigate("/skills")} className={styles.two}>Skills</button>
-          <button onClick={() => navigate("/projects")} className={styles.three}>Projects</button>
-          <button onClick={() => navigate("/contact")} className={styles.four}>Contact</button>
+          <span onClick={() => navigate("/")} className={styles.one}>About</span>
+          <span onClick={() => navigate("/skills")} className={styles.two}>Skills</span>
+          <span onClick={() => navigate("/projects")} className={styles.three}>Projects</span>
+          <span onClick={() => navigate("/contact")} className={styles.four}>Contact</span>
 
           {/* <button onClick={() => navigate("/contact")} className={styles.five}>Contact</button>
           <button onClick={() => navigate("/contact")} className={styles.six}>Contact</button> */}
