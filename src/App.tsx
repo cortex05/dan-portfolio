@@ -19,7 +19,7 @@ export const useTheme = () => {
 }
 
 function App() {
-  const [ theme, setTheme ] = useState<Theme>('light')
+  const [ theme, setTheme ] = useState<Theme>('dark')
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
