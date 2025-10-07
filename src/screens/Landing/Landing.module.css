@@ -1,9 +1,62 @@
 .landingContainer {
   padding: var(--padding-small);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.employmentHistory {
+  /* margin-top: 20px;
+  text-align: left;
+  max-width: 800px; */
+}
+
+.employmentHistory > div {
+  text-align: left;
+}
+
+.employmentHistory > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.employmentHistory ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style: none;
+}
+
+.employmentHistory ul li {
+  margin-right: 4px;
 }
 
 @media only screen and (min-width: 481px) {
   .landingContainer {
     padding: var(--padding-medium);
   }
+
+  .intro {
+    flex-direction: row;
+    justify-content: space-around; 
+  }
+
+  .employmentHistory ul li {
+    margin-right: 16px;
+}
+
+  .employmentHistory > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 }
