@@ -5,9 +5,15 @@
   align-items: center;
   padding: var(--padding-small);
   background: var(--color-bg);
+  opacity: 0.90;
   color: var(--color-text);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 30px;
 
-  border: 2px solid var(--color-primary);
+  /* border: 2px solid var(--color-primary); */
 }
 
 .navLinks {
@@ -15,6 +21,11 @@
   flex-direction: row;
   padding-bottom: var(--padding-small);
   gap: 10px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Space Grotesk', sans-serif; */
+  /* font-family: 'Sora', sans-serif; */
 }
 
 .navLinks span {

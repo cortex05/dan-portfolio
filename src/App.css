@@ -4,4 +4,12 @@ body {
   /* padding: 8px; */
   background-color: var(--color-bg);
   color: var(--color-text);
+
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: 'Space Grotesk', sans-serif; */
+  /* font-family: 'Sora', sans-serif; */
+
+  font-family: 'IBM Plex Sans', sans-serif;
+/* or */
+/* font-family: 'IBM Plex Mono', monospace; */
 }

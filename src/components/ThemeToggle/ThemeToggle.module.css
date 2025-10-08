@@ -2,6 +2,8 @@
   display: flex;
   justify-content: end;
   align-items: center;
+  box-sizing: border-box;
+  margin-right: 35px;
 }
 
 .themeToggleContainer span {
