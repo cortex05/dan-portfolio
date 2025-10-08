@@ -4,8 +4,12 @@ import styles from './Contact.module.css'
 const Contact = () => {
   return (
     <div className={styles.contactContainer}>
-      <h1>This is the contact page</h1>
-      <p>List the contact information listed on your resume.</p>
+      <h1>Contact me</h1>
+      <div>
+        <p>Email: daniel.cortes.83944@gmail.com</p>
+        <p>Github: https://github.com/cortex05</p>
+        <p>LinkedIn: https://www.linkedin.com/in/daniel-cortes83944/</p>
+      </div>
     </div>
   )
 }
