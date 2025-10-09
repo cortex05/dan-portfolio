@@ -82,6 +82,7 @@ const Landing = () => {
             <li>- Playwright</li>
             <li>- Microsoft PowerBI</li>
             <li>- Redux</li>
+            <li>- Tanstack</li>
           </ul>
         </div>
         <div>
