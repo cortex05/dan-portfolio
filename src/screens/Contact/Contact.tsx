@@ -4,7 +4,7 @@ import styles from './Contact.module.css'
 const Contact = () => {
   return (
     <div className={styles.contactContainer}>
-      <h1>Contact me</h1>
+      <h1>Contact</h1>
       <div>
         <p>Email: daniel.cortes.83944@gmail.com</p>
         <p>Github: https://github.com/cortex05</p>
