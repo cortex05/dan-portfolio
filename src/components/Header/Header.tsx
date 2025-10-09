@@ -1,4 +1,3 @@
-import React from "react";
 import { ThemeToggle } from "../ThemeToggle/ThemeToggle";
 import styles from "./Header.module.css";
 import { useNavigate } from "react-router-dom";
