@@ -11,6 +11,20 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  font-size: 1.25rem;
+  margin-bottom: var(--padding-small);
+}
+
+.intro div:first-child {
+  padding: var(--padding-small);
+}
+
+.intro > div {
+  width: 100%;
+}
+
+.intro > div > img {
+  width: 100%;
 }
 
 .employmentHistory {
@@ -21,23 +35,68 @@
 
 .employmentHistory > div {
   text-align: left;
+  border-bottom: 1px solid var(--color-accent);
+  margin-bottom: 60px;
+}
+
+.employmentHistory > div > p {
+  line-height: 1.5;
+}
+
+.employmentHistory > div > p > span {
+  font-weight: 700;
+  /* padding-bottom: 1px; */
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--color-primary);
 }
 
 .employmentHistory > div > div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  /* border-bottom: 2px solid var(--color-border); */
+  padding-bottom: var(--padding-small);
+}
+
+.employmentHistory > div > div > h3 {
+  margin: 0;
+}
+
+.employmentHistory > div > div > span {
+  margin-top: 4px;
+  font-size: .9rem;
 }
 
 .employmentHistory ul {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 0;
   list-style: none;
 }
 
 .employmentHistory ul li {
-  margin-right: 4px;
+  margin-right: 8px;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.education > div {
+  text-align: left;
+}
+
+.education > div > div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.education > div > div > h3 {
+  margin: 0;
 }
 
 @media only screen and (min-width: 481px) {
@@ -47,17 +106,38 @@
 
   .intro {
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-around;
+    margin-bottom: var(--padding-medium);
   }
 
   .employmentHistory ul li {
     margin-right: 16px;
-}
+  }
 
   .employmentHistory > div > div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .education {
+    align-items: center;
+  }
+
+  .education > div {
+    max-width: 600px;
+  }
+
+  .education > div > div {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
+
+@media only screen and (min-width: 769px) {
+  .intro {
+    font-size: 2rem;
+  }
 }
