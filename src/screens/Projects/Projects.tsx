@@ -1,6 +1,7 @@
 import styles from "./Projects.module.css";
 
 //Live
+import educationResourceImg from "../../assets/images/educationResource.png";
 import recipeAppImg from "../../assets/images/jsRecipe.png";
 
 // Legacy
@@ -17,6 +18,26 @@ const Projects = () => {
       <div className={styles.projectSection}>
         <h2>Live Projects</h2>
         <p>These projects are currently deployed and available online.</p>
+        <div className={styles.projectCard}>
+          <h3>Education Resource - 2025</h3>
+          <div>
+            <img src={educationResourceImg} alt="Education Resource" />
+            <div>
+              <p>
+                A MERN stack application to provide free educational resources in various frameworks. While the number of courses are few at the moment, the curriculum is constantly being updated to include more subjects. - <a href="https://ed-mk-4.vercel.app/" target="_blank" rel="noreferrer">
+                    LIVE SITE
+                  </a>
+              </p>
+              <div>
+                <span>- MongoDB</span>
+                <span>- Express</span>
+                <span>- React</span>
+                <span>- Node</span>
+                <span>- Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className={styles.projectCard}>
           <h3>Recipe App - 2019</h3>
           <div>
