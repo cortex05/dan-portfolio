@@ -11,7 +11,7 @@ const Landing = () => {
           <p>
             Daniel Cortes is a Full Stack Software Engineer who specializes in
             Web Based Applications. He is passionate about creating solutions to
-            to real-world problems with technology.
+            real-world problems with technology.
           </p>
         </div>
         <div>
@@ -129,7 +129,12 @@ const Landing = () => {
             <h3>CodeUp</h3>
             <p>December 2020 - May 2021</p>
           </div>
-          <p>CodeUp was a intensive coding bootcamp focused on full-stack web development. Topics covered included standard frontend knowledge along with Bootstrap and JQuery and A backend that was Java based with MySQL for a database.</p>
+          <p>
+            CodeUp was a intensive coding bootcamp focused on full-stack web
+            development. Topics covered included standard frontend knowledge
+            along with Bootstrap and JQuery and A backend that was Java based
+            with MySQL for a database.
+          </p>
         </div>
       </div>
     </div>
