@@ -21,7 +21,7 @@ const Projects = () => {
         <p>These projects are currently deployed and available online.</p>
         {/* 2026 */}
         <div className={styles.projectCard}>
-          <h3>Python Adventure Game - 2025</h3>
+          <h3>Python Adventure Game - 2026</h3>
           <div>
             <img src={pythonAdventure} alt="Python Adventure" />
             <div>
