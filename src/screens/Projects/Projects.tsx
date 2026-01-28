@@ -1,6 +1,7 @@
 import styles from "./Projects.module.css";
 
 //Live
+import pythonAdventure from "../../assets/images/python-adventure.png"
 import educationResourceImg from "../../assets/images/educationResource.png";
 import recipeAppImg from "../../assets/images/jsRecipe.png";
 
@@ -18,6 +19,24 @@ const Projects = () => {
       <div className={styles.projectSection}>
         <h2>Live Projects</h2>
         <p>These projects are currently deployed and available online.</p>
+        {/* 2026 */}
+        <div className={styles.projectCard}>
+          <h3>Python Adventure Game - 2025</h3>
+          <div>
+            <img src={pythonAdventure} alt="Python Adventure" />
+            <div>
+              <p>
+                A Python terminal based game that takes input from users. Players navigate several structures, fight enemies and level up as they progress. - <a href="https://github.com/cortex05/adventure-mk-2?tab=readme-ov-file#adventure-game-mark-2" target="_blank" rel="noreferrer">
+                    LIVE SITE
+                  </a>
+              </p>
+              <div>
+                <span>- Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* 2025 */}
         <div className={styles.projectCard}>
           <h3>Education Resource - 2025</h3>
           <div>
